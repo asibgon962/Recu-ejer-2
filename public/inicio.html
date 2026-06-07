@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión actual</title>
+    <link rel="icon" href="./img/logo_FP.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles_clase.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <!-- Barra superior -->
+        <div>
+            <div class="topbar">
+                <div class="topbar-left">
+                    <p class="toggle-sidebar-btn" id="toggle-sidebar-top">☰</p>
+                    <div id="images_container">
+                        <img src="./img/logo_FP.png" id="imagenes_portada_saladillo">
+                        <h3> <span id="span1" >D.</span> <span id="span2">Int</span></h3>
+                    </div>
+                    <h2> 2º CFGS</h2>
+                </div>
+                <div class="topbar-right">
+                    <img src="" alt="Foto Usuario" class="topbar-photo">
+                    <span class="topbar-username">Usuario</span>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                        <ul>
+                            <li id="change-password">Cambiar Contraseña</li>
+                            <li id="change-email">Cambiar Correo</li>
+                            <li id="logout">Cerrar Sesión</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="central_content">
+            <div class="sidebar" id="sidebar">
+                <ul class="sidebar-links">
+                    <li id="inicio"><i class="fa-duotone fa-solid fa-house"></i><a>Inicio</a></li>
+                    <li id="usuarios"><i class="fa-solid fa-user-group"></i><a>Usuarios</a></li>
+                    <li id="months"><i class="fa-solid fa-calendar-days"></i><a>Calendario</a></li>
+                    <li id="stats"><i class="fa-solid fa-chart-line"></i><a>Estadisticas</a></li>
+                    <li id="admin"><i class="fa-brands fa-black-tie"></i><a>Admin</a></li>
+                    
+                </ul>
+            </div>
+
+            <!-- Grid central,interactuo con el mediante js -->
+            <div class="main-content">
+                <div class="grid">
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Ga+Maamli&family=Nova+Flat&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tektur:wght@400..900&display=swap');
+    </style>
+
+    <script type="importmap">
+        {
+        "imports": {
+            "@kurkle/color": "/@kurkle/color/dist/color.esm.js",
+            "chart.js/auto": "/chart.js/auto/auto.js"
+        }
+        }
+    </script>
+    <script type="module" src="./js/Inicio/script_inicio.mjs"></script>
+</body>
+</html>

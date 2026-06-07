@@ -1,0 +1,38 @@
+{
+  "name": "primer_proyecto_node",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "jest",
+    "startDev": "nodemon index.cjs"
+  },
+  "module": "CommonJS",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.7",
+    "chartjs": "^0.3.24",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/multer": "^1.4.12",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.2.2",
+    "typescript-eslint": "^8.13.0"
+  }
+}
