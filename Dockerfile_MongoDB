@@ -1,0 +1,8 @@
+# Usa la imagen oficial de MongoDB
+FROM mongo:8.0
+
+# Exponer el puerto de MongoDB (por defecto 27017)
+EXPOSE 27017
+
+# Comando por defecto para ejecutar MongoDB
+CMD ["mongod"]

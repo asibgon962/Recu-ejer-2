@@ -1,0 +1,4 @@
+FROM certbot/certbot:latest
+
+ENTRYPOINT ["sh", "-c"]
+CMD ["while true; do sleep 3600; done"]
